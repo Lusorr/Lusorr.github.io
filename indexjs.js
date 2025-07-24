@@ -1,4 +1,4 @@
-const btn = document.getElementById('burger-btn');
+let btn = document.getElementById('burger-btn');
 const menu = document.getElementById('burger-menu');
 let menuOpen = false;
 console.log(btn);
@@ -9,12 +9,14 @@ btn.addEventListener('click', function(){
         menu.style = `display: block`;
         menuOpen = true;
         btn.classList.add('.burger-btn--opened');
+        btn.classList.remove('.burger-btn');
     }
     else
     {
         menu.style = `display: none`;
         menuOpen = false;
         btn.classList.remove('.burger-btn--opened');
+        btn.classList.add('.burger-btn');
     }
 })
 
