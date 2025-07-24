@@ -8,15 +8,15 @@ btn.addEventListener('click', function(){
     {
         menu.style = `display: block`;
         menuOpen = true;
-        btn.classList.add('.burger-btn--opened');
-        btn.classList.remove('.burger-btn');
+        btn.classList.add('burger-btn--opened');
+        btn.classList.remove('burger-btn');
     }
     else
     {
         menu.style = `display: none`;
         menuOpen = false;
-        btn.classList.remove('.burger-btn--opened');
-        btn.classList.add('.burger-btn');
+        btn.classList.remove('burger-btn--opened');
+        btn.classList.add('burger-btn');
     }
 })
 
