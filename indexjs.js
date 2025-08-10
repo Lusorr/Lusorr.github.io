@@ -72,12 +72,12 @@ const products = [
     {
         name: "Фонтан из шаров",
         image: "fontan1",
-        price: "от 10 000"
+        price: "от 5000"
     },
     {
         name: "Фонтан из шаров",
         image: "fontan2",
-        price: "от 10 000"
+        price: "от 5000"
     },
     {
         name: "Фотозона",
@@ -105,3 +105,4 @@ const products = [
         price: "от 10 000"
     }
 ]
+
