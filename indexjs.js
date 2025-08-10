@@ -31,7 +31,7 @@ function RenderProducts(){
                     <div class="card__desc-price">${product.price} р.</div>
                 </div>
                 <div class="order-btn">
-                    <a class="order-btn__text text--upper" href="https://t.me/yana_sergeevna_i">Заказать</a>
+                    <a class="order-btn__text text--upper" href="https://t.me/bright_day_admin">Заказать</a>
                 </div>
             </div>
         `;
@@ -105,4 +105,5 @@ const products = [
         price: "от 10 000"
     }
 ]
+
 
